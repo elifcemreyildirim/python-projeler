@@ -13,15 +13,14 @@ def delete_task(to_do_list):
 
 while True:
     choice=input("1-2-3-4")
-
-
-    if choice==1:
+    if choice=="1":
         add_task(to_do_list)
-    elif choice==2:
+    elif choice=="2":
         show_tasks(to_do_list)
-    elif choice==3:
+    elif choice=="3":
         delete_task(to_do_list)
-    elif choice==4:
+    elif choice=="4":
+        exit()
         break
     else:
         print("invalid selection.")
